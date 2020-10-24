@@ -27,5 +27,8 @@ client.on("message", (message) => {
   if (message.content == `${prefix}ping`) {
     message.channel.send("Pong");
   }
+  if(message.content.match(/bye/i)){
+    message.channel.send('https://tenor.com/view/bye-slide-baby-later-peace-out-gif-12999722')
+  }
 });
 client.login(process.env.SECRET);
