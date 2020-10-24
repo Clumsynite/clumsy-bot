@@ -2,7 +2,7 @@
   "name": "clumsy-bot",
   "version": "1.0.0",
   "description": "first discord bot",
-  "main": "app.js",
+  "main": "index.js",
   "dependencies": {
     "discord.js": "^12.4.1",
     "dotenv": "^8.2.0",
@@ -11,7 +11,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon bot"
+    "start": "nodemon index"
   },
   "repository": {
     "type": "git",
