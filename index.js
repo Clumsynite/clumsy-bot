@@ -27,9 +27,16 @@ client.once("ready", () => {
 });
 
 client.on("message", (message) => {
-  if (message.author == client.user) {
+  if (
+    !message.content.startsWith(prefix) ||
+    message.author.bot ||
+    message.author == client.user
+  )
     return;
-  }
+
+  const args = message.content.slice(prefix.length).trim().split(" ");
+  const command = args.shift().toLowerCase();
+
   if (message.content.match(/bye/i)) {
     message.channel.send(
       "https://tenor.com/view/bye-slide-baby-later-peace-out-gif-12999722"
