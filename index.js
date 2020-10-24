@@ -34,8 +34,7 @@ client.on("message", (message) => {
     message.channel.send(
       "https://tenor.com/view/bye-slide-baby-later-peace-out-gif-12999722"
     );
-  }
-  if (message.content.startsWith(`${prefix}gif`)) {
+  } else if (message.content.startsWith(`${prefix}gif`)) {
     const query = message.content.split(" ");
     const gif = getGif(query[1]);
     gif
@@ -47,6 +46,8 @@ client.on("message", (message) => {
           `Sorry, There was an error fetching gif\n${error}`
         );
       });
+  } else if (message.content === `${prefix}server`) {
+    message.channel.send(`This server's name is: ${message.guild.name}`);
   }
 });
 
