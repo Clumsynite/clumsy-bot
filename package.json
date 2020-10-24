@@ -4,7 +4,9 @@
   "description": "first discord bot",
   "main": "app.js",
   "dependencies": {
-    "discord.js": "^12.4.1"
+    "discord.js": "^12.4.1",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6"
   },
   "devDependencies": {},
   "scripts": {
