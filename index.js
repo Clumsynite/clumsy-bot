@@ -2,8 +2,9 @@ require("dotenv").config();
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const axios = require("axios");
+const config = require('./config.json');
 
-const prefix = "!";
+const prefix = config.prefix;
 
 const giphyTranslateEndpoint = "https://api.giphy.com/v1/gifs/translate";
 
