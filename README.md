@@ -8,4 +8,4 @@ My first discord bot
 
 - `!gif <name>` command will give a random gif related to the given name
 
-- `!server` will return the server's name
+- `!server` will return the server's name and Total memebers in it
