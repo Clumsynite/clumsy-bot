@@ -47,7 +47,9 @@ client.on("message", (message) => {
         );
       });
   } else if (message.content === `${prefix}server`) {
-    message.channel.send(`This server's name is: ${message.guild.name}`);
+    message.channel.send(
+      `Server name: ${message.guild.name}\nTotal members: ${message.guild.memberCount}`
+    );
   }
 });
 
