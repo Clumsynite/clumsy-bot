@@ -12,6 +12,7 @@ client.once("ready", () => {
     });
   });
   const botsGeneral = client.channels.cache.get('769534520163958789') 
+  botsGeneral.send("Hello, world!")
 });
 
 client.login(process.env.SECRET);
