@@ -1,0 +1,26 @@
+{
+  "name": "clumsy-bot",
+  "version": "1.0.0",
+  "description": "first discord bot",
+  "main": "app.js",
+  "dependencies": {
+    "discord.js": "^12.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clumsynite/clumsy-bot.git"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "Clumsyknight",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Clumsynite/clumsy-bot/issues"
+  },
+  "homepage": "https://github.com/Clumsynite/clumsy-bot#readme"
+}
