@@ -10,6 +10,8 @@ The bot hasn't been deployed yet. So, it won't work until I run it locally.
 
 > README will be updated once the bot is deployed
 
+[https://clumsy-bot.herokuapp.com/](https://clumsy-bot.herokuapp.com/), deployed over here
+
 ## Commands
 
 - The word `Bye` *(case insensitive)*, in any sentence or as a single word will return this `https://tenor.com/view/bye-slide-baby-later-peace-out-gif-12999722` gif
